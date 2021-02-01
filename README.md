@@ -12,7 +12,7 @@ Types utilisés :
     
     type hashValToKey = (C.clef * valeur arbre) arbre
     
-Avec C = le foncteur CoupleHashMap
+Avec C = le foncteur CoupleHashMap. 
 Nous avons utilisé un arbre polymorphe afin de factoriser le code le plus possible.
 
 TableDeHachage.ml : On part d’un module CoupleHashMap donné pour construire

@@ -3,7 +3,7 @@
 Fonctionnalités
 
 Types utilisés :
-    type couleur = Rouge | Noir | DoubleNoir
+    type couleur = Rouge | Noir | DoubleNoir 
     type 'a arbre = Vide | VideNoir | Noeud of('a * couleur * 'a arbre * 'a arbre)
     type valeur = C.valeur
     type hashValToKey = (C.clef * valeur arbre) arbre

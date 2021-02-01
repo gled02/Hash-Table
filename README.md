@@ -3,6 +3,7 @@
 Fonctionnalités
 
 Types utilisés :
+
     type couleur = Rouge | Noir | DoubleNoir
     
     type 'a arbre = Vide | VideNoir | Noeud of('a * couleur * 'a arbre * 'a arbre)
